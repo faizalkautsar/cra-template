@@ -1,0 +1,11 @@
+{
+  "name": "@faizalkautsar/cra-template",
+  "version": "1.0.0",
+  "description": "custom CRA template built by Faiz",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Faiz Alkautsar",
+  "license": "ISC"
+}

@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx lint-staged -v --cwd src/dashboards/static/dashboards/search/react_search
+cd src/dashboards/static/dashboards/search/react_search
+npm test
