@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "custom CRA template built by Faiz",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faizalkautsar/cra-template.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@faizalkautsar"
+  },
   "scripts": {
     "test": "jest"
   },
